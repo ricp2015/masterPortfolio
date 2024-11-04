@@ -7,42 +7,32 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Riccardo's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Riccardo Pitzanti's Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://ricp2015.github.io",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Riccardo Pitzanti",
+  logo_name: "RP",
+  nickname: "ricp2015",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "An inquisitive and ambitious learner, always seeking new perspectives to tackle complex challenges. I’m inspired by the power of technology to make a difference, and I’m driven to contribute creatively and collaboratively to projects that leave a lasting, positive impact.",
+  resumeLink: "https://youtube.com",
+  portfolio_repository: "https://github.com/ricp2015",
+  githubProfile: "https://github.com/ricp2015",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/ricp2015",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -53,34 +43,10 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
     link: "mailto:ashutoshhathidara98@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -380,36 +346,36 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "Sapienza Università di Roma",
+      subtitle: "MSc in Computer Science - L18",
+      logo_path: "sapienza_logo.png",
+      alt_name: "Sapienza Università di Roma",
+      duration: "2024 - ongoing",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ My studies in Data Science and AI provided a solid foundation in large-scale data processing, predictive modeling, and advanced analytics. I developed skills in designing machine learning solutions and handling complex data sets to drive meaningful insights and informed decision-making.",
+        "⚡ I also focused on Cybersecurity, gaining practical experience in application security, network defense, and data protection. This training equipped me with the skills to identify security vulnerabilities, design secure systems, and manage network defenses effectively.",
+        "⚡ Additionally, I completed specialized coursework in Blockchain, where I explored decentralized technologies, secure transactions, and the potential for blockchain to enhance transparency and trust in digital systems.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.uniroma1.it/it",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "Sapienza Università di Roma",
+      subtitle: "BSc in Informatica - L31",
+      logo_path: "sapienza_logo.png",
+      alt_name: "Sapienza Università di Roma",
+      duration: "2020 - 2024",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ I’ve explored a broad range of subjects, from foundational courses like Programming, Mathematics, and Database Management to advanced topics such as Cybersecurity, Theory of Computation, and Computer Architecture, building a comprehensive base in computer science.",
+        "⚡ My coursework also included hands-on subjects like Web Development and Computer Graphics, where I learned to create interactive and visually engaging applications.",
+        "⚡ For my thesis, I conducted research on the automated extraction of users' self-disclosed personality traits on Reddit, employing data science and big data methodologies to analyze patterns in personal information sharing and online behavior.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.uniroma1.it/it",
     },
   ],
 };
 
-const certifications = {
-  certifications: [
+const relevant_coursework = {
+  relevant_coursework: [
     {
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
@@ -517,6 +483,37 @@ const certifications = {
         "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
       alt_name: "GCP",
       color_code: "#4285F499",
+    },
+  ],
+};
+
+const certifications = {
+  certifications: [
+    {
+      title: "First Certificate (Cambridge)",
+      subtitle: "C1 Level - 181/190",
+      logo_path: "university_of_cambridge_logo.svg",
+      certificate_link:
+        "https://www.cambridgeenglish.org/exams-and-tests/first/",
+      alt_name: "Cambridge First",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Cyberchallenge",
+      subtitle: "Sapienza's Team",
+      logo_path: "cyberchallenge_logo.svg",
+      certificate_link: "documents/cyberchallengeit_2021_certificato.pdf",
+      alt_name: "Cyberchallenge",
+      color_code: "#00000099",
+    },
+    {
+      title: "Cyberx - Mind4Future",
+      subtitle: "Leonardo",
+      logo_path: "Cyber40_logo.png",
+      certificate_link:
+        "documents/Attestati Finalisti CyberX Mind4Future-54.pdf",
+      alt_name: "Cyberx",
+      color_code: "#0C9D5899",
     },
   ],
 };
