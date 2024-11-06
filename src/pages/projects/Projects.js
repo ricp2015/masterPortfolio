@@ -15,6 +15,7 @@ import {
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import codeImage from "../../assets/images/code_img.png";
 
 class Projects extends Component {
   render() {
@@ -23,14 +24,23 @@ class Projects extends Component {
       <div className="projects-main">
         <Header theme={theme} />
         <div className="basic-projects">
-          <Fade bottom duration={2000} distance="40px">
+          <Fade bottom duration={1500} distance="30px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
                 {/* <img
 											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <ProjectsImg theme={theme} />
+                <img
+                  src={codeImage}
+                  alt="Code illustration"
+                  className="projects-image"
+                  style={{
+                    backgroundColor: theme,
+                    padding: "20px",
+                    borderRadius: "10px",
+                  }}
+                />
               </div>
               <div className="projects-heading-text-div">
                 <h1

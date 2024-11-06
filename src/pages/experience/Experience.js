@@ -7,6 +7,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import workImage from "../../assets/images/work_img.png";
 
 // const experience = {
 // 	title: "Experience",
@@ -158,7 +159,17 @@ class Experience extends Component {
 									src={require(`../../assets/images/${experience["header_image_path"]}`)}
 									alt=""
 								/> */}
-                <ExperienceImg theme={theme} />
+                <img
+                  src={workImage}
+                  alt="Code illustration"
+                  className="projects-image"
+                  style={{
+                    backgroundColor: theme,
+                    padding: "20px",
+                    borderRadius: "10px",
+                    display: "flex",
+                  }}
+                />
               </div>
               <div className="experience-heading-text-div">
                 <h1

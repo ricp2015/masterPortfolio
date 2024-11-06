@@ -18,7 +18,7 @@ class Education extends Component {
       <div className="education-main">
         <Header theme={this.props.theme} />
         <div className="basic-education">
-          <Fade bottom duration={2000} distance="40px">
+          <Fade bottom duration={1500} distance="30px">
             <div className="heading-div">
               <div className="heading-img-div">
                 {/* <img

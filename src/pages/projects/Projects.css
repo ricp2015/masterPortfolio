@@ -3,6 +3,12 @@
   text-align: center;
 }
 
+.projects-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .basic-projects {
   margin-left: 5%;
   margin-right: 5%;
