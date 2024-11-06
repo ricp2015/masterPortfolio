@@ -176,6 +176,7 @@ const skills = {
         "⚙️ Technology and Innovation: Highly engaged with emerging technologies, I focus on their ethical and societal impact, particularly in fields like artificial intelligence, blockchain, and automation.",
         "🎥 Movie Critique and Analysis: I enjoy exploring movies through philosophical and psychological perspectives, uncovering connections that provide insights into real-world dynamics and societal interactions.",
         "🪙 Finance and Economic Models: Deeply interested in economics and finance, I stay current with key macroeconomic trends and the geopolitical dynamics that shape global markets.",
+        "🎶 Experienced DJ since 2016, performing at public and private events; skilled at curating and mixing music to create engaging atmospheres, showcasing creativity and adaptability in dynamic settings.",
       ],
       softwareSkills: [],
     },
@@ -245,9 +246,9 @@ const degrees = {
       alt_name: "Sapienza Università di Roma",
       duration: "2024 - ongoing",
       descriptions: [
-        "⚡ My studies in Data Science and AI provided a solid foundation in large-scale data processing, predictive modeling, and advanced analytics. I developed skills in designing machine learning solutions and handling complex data sets to drive meaningful insights and informed decision-making.",
-        "⚡ I also focused on Cybersecurity, gaining practical experience in application security, network defense, and data protection. This training equipped me with the skills to identify security vulnerabilities, design secure systems, and manage network defenses effectively.",
-        "⚡ Additionally, I completed specialized coursework in Blockchain, where I explored decentralized technologies, secure transactions, and the potential for blockchain to enhance transparency and trust in digital systems.",
+        "📊 My studies in Data Science and AI provided a solid foundation in large-scale data processing, predictive modeling, and advanced analytics. I developed skills in designing machine learning solutions and handling complex data sets to drive meaningful insights and informed decision-making.",
+        "🛡️ I also focused on Cybersecurity, gaining practical experience in application security, network defense, and data protection. This training equipped me with the skills to identify security vulnerabilities, design secure systems, and manage network defenses effectively.",
+        "🔗 Additionally, I completed specialized coursework in Blockchain, where I explored decentralized technologies, secure transactions, and the potential for blockchain to enhance transparency and trust in digital systems.",
       ],
       website_link: "https://www.uniroma1.it/it",
     },
@@ -258,9 +259,9 @@ const degrees = {
       alt_name: "Sapienza Università di Roma",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ I’ve explored a broad range of subjects, from foundational courses like Programming, Mathematics, and Database Management to advanced topics such as Cybersecurity, Theory of Computation, and Computer Architecture, building a comprehensive base in computer science.",
-        "⚡ My coursework also included hands-on subjects like Web Development and Computer Graphics, where I learned to create interactive and visually engaging applications.",
-        "⚡ For my thesis, I conducted research on the automated extraction of users' self-disclosed personality traits on Reddit, employing data science and big data methodologies to analyze patterns in personal information sharing and online behavior.",
+        "💻 I’ve explored a broad range of subjects, from foundational courses like Programming, Mathematics, and Database Management to advanced topics such as Cybersecurity, Theory of Computation, and Computer Architecture, building a comprehensive base in computer science.",
+        "🌐 My coursework also included hands-on subjects like Web Development and Computer Graphics, where I learned to create interactive and visually engaging applications.",
+        "📚 For my thesis, I conducted research on the automated extraction of users' self-disclosed personality traits on Reddit, employing data science and big data methodologies to analyze patterns in personal information sharing and online behavior.",
       ],
       website_link: "https://www.uniroma1.it/it",
     },
@@ -416,7 +417,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I am currently a student pursuing a Master's degree in Computer Science at Sapienza University of Rome. In addition to my studies, I am actively collaborating on research projects with professors, contributing to academic advancements in my field. I am also looking for job opportunities to apply my skills in a professional setting while continuing my education.",
   header_image_path: "experience.svg",
   sections: [
     {
