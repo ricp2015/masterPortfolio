@@ -36,13 +36,14 @@
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .heading-sub-text {
   font-size: 30px;
   font-family: "Google Sans Regular";
   text-align: center;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1380px) {
@@ -67,5 +68,73 @@
 
   .heading-div {
     flex-direction: column;
+  }
+}
+
+/* Imposta il box-sizing globale per contenere padding e bordi */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.experience-main,
+.education-main {
+  width: 100%;
+  max-width: 100vw; /* Limita la larghezza alla viewport */
+  overflow-x: hidden; /* Evita lo scroll orizzontale */
+}
+
+.basic-experience,
+.basic-education {
+  margin: 0 auto; /* Centra i contenitori */
+  padding: 0 5%; /* Aggiungi padding ai lati per evitare che il testo tocchi i bordi */
+  width: 90%; /* Limita la larghezza complessiva */
+}
+
+.heading-div,
+.experience-heading-div {
+  display: flex;
+  flex-wrap: wrap; /* Permetti ai contenuti di andare a capo su schermi più piccoli */
+  align-items: center;
+  justify-content: center; /* Centra il contenuto */
+}
+
+.heading-text,
+.experience-heading-text {
+  font-size: clamp(30px, 5vw, 56px); /* Adatta il font dinamicamente */
+  margin-top: 20px;
+  text-align: center;
+}
+
+.heading-sub-text,
+.experience-heading-sub-text {
+  font-size: clamp(18px, 3vw, 30px); /* Adatta anche il font del sottotitolo */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Regole specifiche per dispositivi mobili */
+@media (max-width: 768px) {
+  .heading-div,
+  .experience-heading-div {
+    flex-direction: column; /* Colonna per schermi piccoli */
+  }
+
+  .basic-experience,
+  .basic-education {
+    width: 100%; /* Usa tutta la larghezza su mobile */
+    padding: 0 2%; /* Riduci padding laterale */
+  }
+
+  .heading-text,
+  .experience-heading-text {
+    font-size: 24px; /* Riduci il font sui dispositivi piccoli */
+    margin-top: 10px;
+  }
+
+  .heading-sub-text,
+  .experience-heading-sub-text {
+    font-size: 18px; /* Riduci anche il font del sottotitolo */
   }
 }
