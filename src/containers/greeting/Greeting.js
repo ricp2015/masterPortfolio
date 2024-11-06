@@ -68,8 +68,8 @@ export default function Greeting(props) {
                 backgroundColor: theme,
                 padding: "20px",
                 borderRadius: "10px",
-                width: "500px",
-                height: "500px",
+                width: "100%", // Makes the image take up the full width of its container
+                height: "auto", // Keeps the aspect ratio intact
               }}
             />
           </div>

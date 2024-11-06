@@ -55,7 +55,24 @@
   height: auto;
 }
 
-/* Media Query */
+.projects-image {
+  background-color: var(--theme-color); /* Adjust if necessary */
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 900px; /* Increased the max-width to make the image larger */
+  margin-top: 70px; /* Adds space above the image to make it lower */
+  margin-left: 50px; /* Moves the image more to the right */
+}
+
+@media (max-width: 768px) {
+  .projects-image {
+    max-width: 100%; /* Full width on smaller screens */
+    margin-left: 0; /* Remove left margin on small screens */
+  }
+}
+
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
